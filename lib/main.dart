@@ -51,7 +51,8 @@ class WhateverApp extends StatelessWidget {
         '/deleteemployee': (context) => DeleteEmployee(),
         '/NotificationScreenA': (context) => NotificationScreenA(),
         '/NotificationTagsA': (context) {
-          final args = ModalRoute.of(context)?.settings.arguments as List<dynamic>?;
+          final args =
+              ModalRoute.of(context)?.settings.arguments as List<dynamic>?;
           return NotificationsTagsA(notifications: args ?? []);
         },
       },

@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-import '../../../../../../../url.dart'; // Điều chỉnh lại nếu cần
+// import '../../../../../../../url.dart'; // Điều chỉnh lại nếu cần
 
 // Để xem log, hãy mở Debug Console (VS Code/Android Studio) hoặc dùng lệnh `flutter logs` khi chạy app ở chế độ debug.
 
